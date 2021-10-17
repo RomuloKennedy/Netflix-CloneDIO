@@ -69,7 +69,7 @@ body{
 }
 .movie-cover{
 
-    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(/img/onepiece.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url('https://www.themoviedb.org/t/p/original/npg6pCyEYcCS6Ok9fbiIdcA60lH.jpg');
     height:500px;
     background-size:cover;
     

@@ -1,0 +1,80 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+/*Clear*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+}
+body{
+    background-color: var(--preto);  
+}
+
+.head{
+    display:flex;
+    margin-left:15px;
+    align-items: center;
+    color:var(--vermelho);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.head .logo{
+    font-size:35px;
+}
+.head nav{
+    margin-left:15px;
+}
+.head nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-left:5px;
+    cursor: pointer;
+
+}
+.head nav a:hover{
+    color: white;
+}
+.movie-cover .movie-title{
+    color:white;
+    font-size:35px;
+    padding-top:300px;
+    margin-left:8px;
+}
+.movie-cover .description{
+    color:white;
+    margin-top:20px;
+    margin-left:8px;
+    width:30%;
+}
+.movie-cover .button{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+
+    height:40px;
+    width:170px;
+    margin-top:15px;
+    margin-left:8px;
+    cursor:pointer;
+    transition: .3s ease all;   
+}
+.movie-cover .button:hover{
+    background-color: white;
+    color:var(--preto);
+}
+.movie-cover .button i{
+    margin-right:5px;
+}
+.movie-cover{
+
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(/img/onepiece.jpg);
+    height:500px;
+    background-size:cover;
+    
+}
+
+.carrossel{
+    height:80%;
+}

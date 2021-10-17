@@ -1,0 +1,45 @@
+@media screen and (max-width:700px) {
+    .movie-cover .movie-title{
+        font-size:35px;
+        padding-top:285px;
+        margin-left:8px;
+    }
+    .movie-cover .description{
+        width:70%;
+    }
+    .movie-cover .button{
+        margin-top:35px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header .head .logo{
+        font-size:30px;
+    }
+    header .head nav{
+        font-size:13px;
+    }
+    .movie-cover .movie-title{
+        color:white;
+        font-size:25px;
+        padding-top:275px;
+        margin-left:8px;
+    }
+
+}
+@media screen and (max-width:380px){
+    .movie-cover .button{
+        font-size:10px;
+        height:40px;
+        width:130px;
+        margin-top:5px;
+        margin-left:4px; 
+       }
+}
+
+@media screen and (min-width:1000px){
+    .movie-cover .description{
+        width:25%;
+    }
+}
+
